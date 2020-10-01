@@ -1,0 +1,13 @@
+name: python38
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - fuzzywuzzy 
+  - python=3.8
+  - jupyterlab
+  - jupyter_contrib_nbextensions
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
