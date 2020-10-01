@@ -3,13 +3,19 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - fuzzywuzzy 
   - python=3.8
+  - pyarrow
+  - fuzzywuzzy 
+  - gensim
+  - nltk
+  - scikit-learn
   - jupyterlab
+  - jupyterlab-git
   - jupyter_contrib_nbextensions
   - nb_conda_kernels
-  - matplotlib
   - numpy
   - pandas
-  - scikit-learn
   - scipy
+  - matplotlib
+  - seaborn
+  - plotly
